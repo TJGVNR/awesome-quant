@@ -148,3 +148,14 @@ user to configure the MCP server.
 - `parse.py` requires `GITHUB_ACCESS_TOKEN`; `site/generate.py` can run without
   the token if `site/projects.csv` already exists or if it falls back to direct
   README parsing.
+
+## Commit identity (agents and automation)
+
+All commits to this repo, including ones made by AI agents and automation, must use:
+
+```
+git config user.name "TJGVNR"
+git config user.email "TJGVNR@users.noreply.github.com"
+```
+
+i.e. `TJGVNR <TJGVNR@users.noreply.github.com>`. Do not commit under other names or emails.
